@@ -1,6 +1,6 @@
-# Project Name
+# BetaCritic Banner
 
-> Project description
+> A clone of the metacritic movie banner.
 
 ## Related Projects
 
