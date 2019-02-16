@@ -25,6 +25,10 @@ module.exports = {
 
   // The directory where Jest should output its coverage files
   coverageDirectory: "coverage",
+  verbose: true,
+  setupFiles: ["<rootDir>/test/testconfig.js"],
+  setupFilesAfterEnv: ['./node_modules/jest-enzyme/lib/index.js'],
+
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
