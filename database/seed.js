@@ -3,7 +3,7 @@ const {db, Banner} = require('./banner_db.js');
 var bannerData = [
   {
     "movieId": 1,
-    "video": "https://www.youtube.com/watch?v=lc0UehYemQA",
+    "video": "https://www.youtube.com/embed/lc0UehYemQA",
     "title": "Jurassic Park",
     "year" : "1993",
     "score_explanation" : "Generally favorable reviews based on 20 Critics",

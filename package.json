@@ -23,7 +23,8 @@
     "mongoose": "^4.13.18",
     "mongoose-unique-validator": "^2.0.2",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1",
+    "dns": "file: ./src/mock/dns"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

@@ -9,50 +9,50 @@ db.once('open', function() {
 });
 
 let bannerSchema = mongoose.Schema({
+    "movieId": Number,
     "video": String,
     "title": String,
     "year" : String,
-    "score_title" : String,
-    "question" : String,
     "score_explanation" : String,
     "score" : String,
-    "see_all" : String,
-    "vote_now" : String,
-    "1" : String,
-    "2" : String,
-    "3" : String,
-    "4" : String,
-    "5" : String,
-    "6" : String,
-    "7" : String,
-    "8" : String,
-    "9" : String,
-    "10" : String
+    "scores_obj" :
+      {
+      "vote1": Number,
+      "vote2": Number,
+      "vote3": Number,
+      "vote4": Number,
+      "vote5": Number,
+      "vote6": Number,
+      "vote7": Number,
+      "vote8": Number,
+      "vote9": Number,
+      "vote10": Number
+     }
 });
 
 let Banner = mongoose.model('Banner', bannerSchema);
 
 let save = (results) => {
   let newBanner = new Banner({
-     "video": results.video,
+    "movieId": results.movieId,
+    "video": results.video,
     "title": results.title,
     "year" : results.year,
-    "score_title" : results.score_title,
-    "question" : results.question,
     "score_explanation" : results.score_explanation,
     "score" : results.score,
-    "see_all" : results.see_all,
-    "vote_now" : results.vote_now,
-    "1" : results.one,
-    "2" : results.two,
-    "3" : results.three,
-    "4" : results.four,
-    "5" : results.five,
-    "6" : results.six,
-    "7" : results.seven,
-    "8" : results.eight,
-    "9" : results.nine,
-    "10" : results.ten
+    "scores_obj" :
+      {
+      "vote1": results.vote1,
+      "vote2": results.vote2,
+      "vote3": results.vote3,
+      "vote4": results.vote4,
+      "vote5": results.vote5,
+      "vote6": results.vote6,
+      "vote7": results.vote7,
+      "vote8": results.vote8,
+      "vote9": results.vote9,
+      "vote10": results.vote10
+     }
   });
   newBanner.save(err => {
     if (err) {
