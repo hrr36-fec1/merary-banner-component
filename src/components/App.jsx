@@ -3,6 +3,8 @@ import $ from 'jquery';
 import VideoPlayer from './VideoPlayer.jsx';
 import Nav from './Nav.jsx';
 import Title from './Title.jsx';
+import Score from './Score.jsx';
+import Vote from './Vote.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -28,7 +30,7 @@ class App extends React.Component {
         that.setState({
           bannerData:results[0]
         });
-        console.log(results[0].title)
+        console.log(results[0])
       },
       error: () => console.log('Error in getBannerData')
     });
@@ -43,6 +45,8 @@ class App extends React.Component {
           <div className="banner-header"></div>
               <Title info={this.state.bannerData}/>
               <VideoPlayer video={this.state.bannerData}/>
+              <Score info={this.state.bannerData}/>
+              <Vote info={this.state.bannerData}/>
         </div>
       </div>
     );
