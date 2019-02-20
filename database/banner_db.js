@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/banner');
-var uniqueValidator = require('mongoose-unique-validator');
 var db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'connection error:'));
