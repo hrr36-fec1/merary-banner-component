@@ -28,9 +28,9 @@ class App extends React.Component {
       method: 'GET',
       success: function(results) {
         that.setState({
-          bannerData:results[0]
+          bannerData:results[1]
         });
-        console.log(results[0])
+        console.log(results)
       },
       error: () => console.log('Error in getBannerData')
     });

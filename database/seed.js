@@ -8,19 +8,17 @@ var bannerData = [
     "year" : "1993",
     "score_explanation" : "Generally favorable reviews based on 20 Critics",
     "score" : "68",
-    "scores_obj" :
-      {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 2,
@@ -29,18 +27,17 @@ var bannerData = [
     "year" : "1995",
     "score_explanation" : "Generally favorable reviews based on 26 Critics",
     "score" : "88",
-    "scores_obj":  {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 3,
@@ -49,18 +46,17 @@ var bannerData = [
     "year" : "2001",
     "score_explanation" : "Generally favorable reviews based on 12 Critics",
     "score" : "73",
-    "scores_obj" : {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 4,
@@ -69,18 +65,17 @@ var bannerData = [
     "year" : "2011",
     "score_explanation" : "Generally favorable reviews based on 8 Critics",
     "score" : "84",
-    "scores_obj" :  {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 5,
@@ -89,18 +84,17 @@ var bannerData = [
     "year" : "2014",
     "score_explanation" : "Generally favorable reviews based on 17 Critics",
     "score" : "91",
-    "scores_obj" :  {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 6,
@@ -109,18 +103,17 @@ var bannerData = [
     "year" : "2010",
     "score_explanation" : "Generally favorable reviews based on 11 Critics",
     "score" : "22",
-    "scores_obj" :  {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 7,
@@ -129,19 +122,17 @@ var bannerData = [
     "year" : "2006",
     "score_explanation" : "Generally favorable reviews based on 29 Critics",
     "score" : "71",
-    "scores_obj" :
-     {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 8,
@@ -150,19 +141,17 @@ var bannerData = [
     "year" : "2008",
     "score_explanation" : "Generally favorable reviews based on 21 Critics",
     "score" : "43",
-    "scores_obj" :
-     {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 9,
@@ -171,19 +160,17 @@ var bannerData = [
     "year" : "2001",
     "score_explanation" : "Generally favorable reviews based on 19 Critics",
     "score" : "89",
-    "scores_obj" :
-     {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 10,
@@ -192,19 +179,17 @@ var bannerData = [
     "year" : "1998",
     "score_explanation" : "Generally favorable reviews based on 14 Critics",
     "score" : "92",
-    "scores_obj" :
-     {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 11,
@@ -213,19 +198,17 @@ var bannerData = [
     "year" : "1962",
     "score_explanation" : "Generally favorable reviews based on 66 Critics",
     "score" : "98",
-    "scores_obj" :
-     {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 12,
@@ -234,19 +217,17 @@ var bannerData = [
     "year" : "1971",
     "score_explanation" : "Generally favorable reviews based on 67 Critics",
     "score" : "98",
-    "scores_obj" :
-     {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 13,
@@ -255,19 +236,17 @@ var bannerData = [
     "year" : "1995",
     "score_explanation" : "Generally favorable reviews based on 44 Critics",
     "score" : "98",
-    "scores_obj" :
-     {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 14,
@@ -276,19 +255,17 @@ var bannerData = [
     "year" : "2007",
     "score_explanation" : "Generally favorable reviews based on 23 Critics",
     "score" : "74",
-    "scores_obj" :
-     {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   },
     {
     "movieId": 15,
@@ -297,19 +274,17 @@ var bannerData = [
     "year" : "1989",
     "score_explanation" : "Generally favorable reviews based on 12 Critics",
     "score" : "99",
-    "scores_obj" :
-     {
-      "vote1": 1,
-      "vote2": 2,
-      "vote3": 3,
-      "vote4": 4,
-      "vote5": 5,
-      "vote6": 6,
-      "vote7": 7,
-      "vote8": 8,
-      "vote9": 9,
-      "vote10": 10
-     }
+    "vote0": 0,
+    "vote1": 1,
+    "vote2": 2,
+    "vote3": 3,
+    "vote4": 4,
+    "vote5": 5,
+    "vote6": 6,
+    "vote7": 7,
+    "vote8": 8,
+    "vote9": 9,
+    "vote10": 10
   }
 ];
 

@@ -15,19 +15,17 @@ let bannerSchema = mongoose.Schema({
     "year" : String,
     "score_explanation" : String,
     "score" : String,
-    "scores_obj" :
-      {
-      "vote1": Number,
-      "vote2": Number,
-      "vote3": Number,
-      "vote4": Number,
-      "vote5": Number,
-      "vote6": Number,
-      "vote7": Number,
-      "vote8": Number,
-      "vote9": Number,
-      "vote10": Number
-     }
+    "vote0": Number,
+    "vote1": Number,
+    "vote2": Number,
+    "vote3": Number,
+    "vote4": Number,
+    "vote5": Number,
+    "vote6": Number,
+    "vote7": Number,
+    "vote8": Number,
+    "vote9": Number,
+    "vote10": Number
 });
 
 let Banner = mongoose.model('Banner', bannerSchema);
@@ -40,19 +38,17 @@ let save = (results) => {
     "year" : results.year,
     "score_explanation" : results.score_explanation,
     "score" : results.score,
-    "scores_obj" :
-      {
-      "vote1": results.vote1,
-      "vote2": results.vote2,
-      "vote3": results.vote3,
-      "vote4": results.vote4,
-      "vote5": results.vote5,
-      "vote6": results.vote6,
-      "vote7": results.vote7,
-      "vote8": results.vote8,
-      "vote9": results.vote9,
-      "vote10": results.vote10
-     }
+    "vote0": results.vote0,
+    "vote1": results.vote1,
+    "vote2": results.vote2,
+    "vote3": results.vote3,
+    "vote4": results.vote4,
+    "vote5": results.vote5,
+    "vote6": results.vote6,
+    "vote7": results.vote7,
+    "vote8": results.vote8,
+    "vote9": results.vote9,
+    "vote10": results.vote10
   });
   newBanner.save(err => {
     if (err) {
