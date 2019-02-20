@@ -8,6 +8,14 @@ module.exports = {
   },
   mode: 'development',
   devtool: 'inline-source-map',
+  target: 'node',
+  node: {
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty',
+    module: 'empty',
+    vertx: 'empty'
+  },
   module: {
     rules: [
       {
