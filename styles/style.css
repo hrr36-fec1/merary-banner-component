@@ -9,7 +9,9 @@ body {
   width: 100%;
   margin: 0 auto;
   font-size: 1.3em;
-  background-color: black;
+  background-image: url("https://s3-us-west-1.amazonaws.com/merary-fec/jurassic-park-movie-poster-1992-1020141477.jpg"), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  background-blend-mode: overlay;
+  background-size: 360px 550px;
 }
 
 .banner-header {
@@ -20,7 +22,9 @@ body {
 .nav {
   height: 101.61px;
   width: 100%;
-  background-color: white;
+  background-image: url("https://s3-us-west-1.amazonaws.com/merary-fec/nav_bar.jpg");
+  background-size: 1450px auto;
+  background-repeat: no-repeat;
 }
 
 .video-player {
