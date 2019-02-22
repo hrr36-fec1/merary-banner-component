@@ -24,7 +24,7 @@ class App extends React.Component {
   getBannerData() {
     var that = this;
     $.ajax({
-      url: 'http://localhost:8080/api/movies/banner',
+      url: 'http://localhost:8082/api/movies/banner',
       method: 'GET',
       success: function(results) {
         that.setState({
