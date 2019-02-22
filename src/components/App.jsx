@@ -28,7 +28,7 @@ class App extends React.Component {
       method: 'GET',
       success: function(results) {
         that.setState({
-          bannerData:results[1]
+          bannerData:results[0]
         });
         console.log(results)
       },

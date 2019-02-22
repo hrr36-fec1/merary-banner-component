@@ -26,9 +26,8 @@ app.use(function(req, res, next) {
 });
 
 
-
 app.get('/api/movies/banner', function (req, res) {
-   Banner.find().exec()
+   Banner.find().sort({movieId: 1}).exec()
    .then(results => {
     if (!results){
       return res.status(500).send({})
@@ -44,5 +43,7 @@ app.listen(port, (error) => {
   }
   console.log(`Listening on port ${port}!`);
 });
+
+
 
 
