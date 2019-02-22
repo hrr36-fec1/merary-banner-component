@@ -41,8 +41,8 @@ class App extends React.Component {
     return (
       <div>
       <Nav/>
-       <div className="banner">
-          <div className="banner-header"></div>
+       <div className="mer_banner">
+          <div className="mer_banner-header"></div>
               <Title info={this.state.bannerData}/>
               <VideoPlayer video={this.state.bannerData}/>
               <Score info={this.state.bannerData}/>

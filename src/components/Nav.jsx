@@ -3,7 +3,7 @@
 import React from 'react';
 
 var Nav = (props) => (
-  <div className="nav">
+  <div className="mer_nav">
   </div>
 )
 
